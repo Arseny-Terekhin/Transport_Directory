@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.InsertController">
+   <children>
+      <TextField fx:id="tfNumber" layoutX="463.0" layoutY="199.0" />
+      <Text layoutX="227.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Добавить транспортное срелство">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Label fx:id="lbEror" layoutX="28.0" layoutY="56.0" prefHeight="17.0" prefWidth="654.0" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfBrand" layoutX="134.0" layoutY="199.0" />
+      <TextField fx:id="tfModel" layoutX="134.0" layoutY="238.0" />
+      <TextField fx:id="tfCategory" layoutX="134.0" layoutY="279.0" />
+      <CheckBox fx:id="checkBox" layoutX="319.0" layoutY="332.0" mnemonicParsing="false" text="Наличие прицепа">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <Button fx:id="btInsert" layoutX="193.0" layoutY="409.0" mnemonicParsing="false" text="Добавить">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btExit" layoutX="458.0" layoutY="400.0" mnemonicParsing="false" text="Отмена">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Text layoutX="14.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Марка транспорта">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="9.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Модель транспорта">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="67.0" layoutY="297.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Категория">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="305.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Государственный номер">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="362.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Тип транспорта">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="379.0" layoutY="297.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Год выпуска">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="comboBox" layoutX="463.0" layoutY="238.0" prefWidth="150.0" />
+      <TextField fx:id="tfDate" layoutX="463.0" layoutY="280.0" />
+   </children>
+</AnchorPane>
